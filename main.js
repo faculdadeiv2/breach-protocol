@@ -1,3 +1,6 @@
+/** GAME START FUNCTION IS AT THE END OF FILE. */
+
+// Game states
 const state = {
     selectedRow: 0,
     selectedColumn: null,
@@ -144,6 +147,7 @@ function initMatrix() {
     }
 }
 
+// Closure for game start
 (function init() {
     initMatrix();
     initGame();
