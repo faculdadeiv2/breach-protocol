@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breach Protocol</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="net-tech">
+            <hr class="net-tech-hr">
+            <hr class="net-tech-hr">
+            <hr class="net-tech-hr">
+            <hr class="net-tech-hr">
+            <hr class="net-tech-hr">
+            <hr class="net-tech-hr">
+            <hr class="net-tech-hr">
+            <div class="net-tech-text">
+                <p>NET</p>
+                <span>
+                    <hr class="net-tech-hr-text">
+                    <hr class="net-tech-hr-text" style="margin: 1px 0px;">
+                    <hr class="net-tech-hr-text">
+                </span>
+                <p>TECH</p>
+            </div>
+        </div>
+        <div class="dots">
+            <div class="dot-row">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="dot-row">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <div class="dot-row">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <div class="top-bar">
+            <p>BREACH PROTOCOL INTERFACE</p>
+        </div>
+        <div class="top-left-noise">
+            <p>
+                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, 
+                SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. 
+                UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS 
+                NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE DOLOR IN 
+                REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIATUR. 
+                EXCEPTEUR SINT OCCAECAT CUPIDATAT NON PROIDENT, SUNT IN CULPA QUI OFFICIA 
+                DESERUNT MOLLIT ANIM ID EST LABORUM.
+            </p>
+        </div>
+    </div>
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="center">
+        <div class="animated-borders">
+            <div class="animated-border-1"></div>
+            <div class="animated-border-2"></div>
+            <div class="animated-border-3"></div>
+        </div>
+        <div class="game-top">
+            <p class="small">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.</p>
+            <p>BUFFER</p>
+        </div>
+        <div class="breach-timer-area">
+            <div class="breach-timer-area-bg"></div>
+            <div class="breach-timer-top-noise">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, 
+                SED DO EIUSMOD TEMPOR INCIDIDUNT.</div>
+            <div class="breach-timer-txt-area">
+                <p>BREACH TIME REMAINING</p>
+                <div class="breach-timer-value-wrapper">
+                    <p id="breach-timer-value">76.50</p>
+                </div>
+            </div>
+            <div class="breach-timer-bottom-box"></div>
+        </div>
+        <div class="buffer-wrapper">
+            <div class="buffer-boxes">
+                <div class="buffer-box" id="buffer-box-0"></div>
+                <div class="buffer-box" id="buffer-box-1"></div>
+                <div class="buffer-box" id="buffer-box-2"></div>
+                <div class="buffer-box" id="buffer-box-3"></div>
+                <div class="buffer-box" id="buffer-box-4"></div>
+            </div>
+        </div>
+        <div class="code-matrix-outer-wrapper">
+            <div class="code-matrix-wrapper">
+                <div class="code-matrix-title-wrapper">
+                    <svg width="24" height="18">
+                        <polygon points="2,2 2,8 6,8" style="fill:black;stroke:#333;stroke-width:0.1" />
+                        <polygon points="2,10 2,16 6,16" style="fill:black;stroke:#eee;stroke-width:0.1" />
+                        <polygon points="4,10 8,16 8,10" style="fill:black;stroke:#eee;stroke-width:0.1" />
+                        <polygon points="10,10 10,16 14,16" style="fill:black;stroke:#eee;stroke-width:0.1" />
+                        <polygon points="12,10 16,10 16,16" style="fill:black;stroke:#eee;stroke-width:0.1" />
+                    </svg>
+                    <p>CODE MATRIX</p>
+                </div>
+                <div class="code-matrix-table-wrapper">
+                    <table class="matrix">
+                        <tbody id="matrix">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="code-matrix-bottom-noise">
+                <p class="first">
+                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, 
+                SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. 
+                UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS 
+                NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE DOLOR IN
+                </p>
+                <p class="second">
+                    LOREM IPSUM - 0 - 2 - 4.8.8.8 <br>
+                    LOREM IPSUM - 0 - 2 - 4.8.8.8 <br>
+                    LOREM IPSUM - 4.8.8.8
+                </p>
+                <p class="second">
+                    LOREM IPSUM SECTA - 0 - 2 - 4.8.8.8 <br>
+                    LOREM IPSUM SECTA - 0 - 2 - 4.8.8.8 <br>
+                </p>
+                <div class="last"></div>
+            </div>
+        </div>
+        <div class="sequences-wrapper">
+            <div class="sequences-grid">
+                <div class="sequences-title-wrapper">
+                    <div class="sequence-icon">
+                        <p>A551</p>
+                        <div class="circles">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <p>SEQUENCE REQUIRED TO UPLOAD</p>
+                </div>
+                <div class="sequences">
+                    <div class="sequence" id="sequence-0">
+                        <div class="sequence-row">
+                            <div>55</div>
+                            <div>BD</div>
+                        </div>
+                        <div class="description-row">
+                            <div class="title">ICEPICK</div>
+                            <div class="description">Reduces quickhack cast by 1 RAM unit.</div>
+                        </div>
+                    </div>
+                    <div class="sequence" id="sequence-1">
+                        <div class="sequence-row">
+                            <div>BD</div>
+                            <div>BD</div>
+                        </div>
+                        <div class="description-row">
+                            <div class="title">CAMERA SHUTDOWN</div>
+                            <div class="description">Deactivates all cameras.</div>
+                        </div>
+                    </div>
+                    <div class="sequence" id="sequence-2">
+                        <div class="sequence-row">
+                            <div>BD</div>
+                            <div>E9</div>
+                        </div>
+                        <div class="description-row">
+                            <div class="title">MASS VULNERABILITY</div>
+                            <div class="description">Reduces the resistances of all enemies.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sequences-noise">
+                <p>
+                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, 
+                    SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. 
+                    UT ENIM AD MINIM VENIAM.
+                </p>
+                <div>86 55 7A 1C 7A 1C 55 7D</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="numbers number-1">
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>1C</p>
+        <p>E9</p>
+    </div>
+    <div class="numbers number-2">
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>1C</p>
+        <p>E9</p>
+    </div>
+    <div class="numbers number-3">
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>1C</p>
+        <p>E9</p>
+    </div>
+    <div class="numbers number-4">
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>1C</p>
+        <p>E9</p>
+    </div>
+    <div class="numbers number-5">
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>7D</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>55</p>
+        <p>7A</p>
+        <p>1C</p>
+        <p>E9</p>
+        <p>55</p>
+        <p>1C</p>
+        <p>1C</p>
+        <p>E9</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
